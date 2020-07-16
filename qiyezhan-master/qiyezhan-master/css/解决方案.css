@@ -1,0 +1,425 @@
+body,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding: 0;
+}
+input{
+	border: 0;
+}
+img,input,span{
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+}
+a,ul,li{
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+}
+.box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.box .top{
+	width: 980px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box .top a{
+	font-size: 15px;
+	line-height: 34px;
+	color: #999;
+	float: right;
+	margin-right: 5px;
+}
+.box .top a:hover{
+	color: red;
+}
+.box .top span{
+	width: 1px;
+	height: 10px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+	color: #999;
+}
+.box .con{
+	width: 980px;
+	height: 60px;
+	margin: 0 auto;
+}
+.box .con img{
+	width: auto;
+	height: 42px;
+	float: left;
+}
+.box .con .con1{
+	width: 65px;
+	height: 60px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+.box .con .con1 h1{
+	font-size: 14px;
+	line-height: 60px;
+	color: #333;
+	font-weight: normal;
+	margin-left: 15px;
+	text-align: center;
+}
+.box .con .con1 h1:hover{
+	background-color: red;
+}
+.box .con .con3{
+	width: 76px;
+	height: 60px;
+	float: left;
+	background-color: red;
+}
+.box .con .con3 h1{
+	font-size: 14px;
+	line-height: 60px;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+}
+.box .con .con2{
+	width: 76px;
+	height: 60px;
+	float: left;
+}
+.box .con .con2 h1{
+	font-size: 14px;
+	line-height: 60px;
+	color: #333;
+	font-weight: normal;
+	text-align: center;
+}
+.box .con .con2 h1:hover{
+	color: #fff;
+	background-color: red;
+}
+.box .con .ss{
+	width: 215px;
+	height: 36px;
+	float: right;
+	border-radius: 20px;
+	position: relative;
+	margin-top: 10px;
+	border: 1px solid #eaeaea;
+}
+input{
+	padding: 5px;
+}
+.box .con .ss input{
+	width: 214px;
+	height: 34px;
+	margin-top: 1px;
+	float: right;
+	border-radius: 20px;
+	outline: none;
+}
+.box .con .ss img{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 7px;
+}
+
+.box .ban{
+	width: 100%;
+	height: 244px;
+	background-color: #DDDEE2;
+	margin-top: 15px;
+}
+.box .ban img{
+	width: 1080px;
+	height: 244px;
+	margin: 0 auto;
+}
+
+.box .fang{
+	width: 1080px;
+	height: 1300px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.box .fang .zuo{
+	width: 225px;
+	height: 195px;
+	float: left;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	margin-top: 10px;
+}
+.box .fang .zuo h1{
+	font-size: 18px;
+	line-height: 20px;
+	color: red;
+	font-weight: normal;
+}
+.box .fang .zuo h2{
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+	font-weight: normal;
+	margin-top: 5px;
+}
+.box .fang .zuo .jie{
+	width: 225px;
+	height: 30px;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+}
+.box .fang .zuo .jie h3{
+	font-size: 15px;
+	line-height: 30px;
+	color: #333;
+	font-weight: normal;
+}
+.box .fang .zuo .jie h3:hover{
+	color: red;
+}
+.box .fang .zuo .jie1{
+	width: 225px;
+	height: 54px;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+}
+.box .fang .zuo .jie1 h3{
+	font-size: 15px;
+	line-height: 25px;
+	color: #333;
+	font-weight: normal;
+}
+.box .fang .zuo .jie1 h3:hover{
+	color: red;
+}
+
+.box .fang .you{
+	width: 820px;
+	height: 1300px;
+	float: right;
+	border: 1px solid #eaeaea;
+	margin-top: 10px;
+}
+.box .fang .you .tou{
+	width: 820px;
+	height: 29px;
+	border-bottom: 1px solid #999;
+	background-color: #eeeeee;
+}
+.box .fang .you .tou h1{
+	font-size: 18px;
+	line-height: 29px;
+	color: red;
+	margin-left: 10px;
+	font-weight: normal;
+}
+.box .fang .you .bo{
+	width: 610px;
+	height: 21px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box .fang .you .bo h1{
+	font-size: 15px;
+	line-height: 21px;
+	color: #000;
+}
+
+.box .fang .you .tu{
+	width: 270px;
+	height: 1350px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.box .fang .you .tu img{
+	width: 264px;
+	height: 353px;
+	margin-bottom: 60px;
+}
+
+.box .fang .you .zi{
+	width: 468px;
+	height: 1150px;
+	float: right;
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+.box .fang .you .zi .top{
+	width: 448px;
+	height: 48px;
+	border-bottom: 1px solid #999;
+}
+.box .fang .you .zi .top h1{
+	font-size: 15px;
+	line-height: 20px;
+	color: #000;
+}
+.box .fang .you .zi .top h1:hover{
+	color: red;
+}
+.box .fang .you .zi .rong{
+	width: 448px;
+	height: auto;
+	padding: 10px;
+}
+.box .fang .you .zi .rong h1{
+	font-size: 15px;
+	line-height: 20px;
+	color: #333;
+	font-weight: normal;
+}
+.box .fang .you .zi .top1{
+	width: 448px;
+	height: 30px;
+	border-bottom: 1px solid #999;
+}
+.box .fang .you .zi .top1 h1{
+	font-size: 15px;
+	line-height: 24px;
+	color: #000;
+}
+.box .fang .you .zi .top1 h1:hover{
+	color: red;
+}
+.box .fang .you .zi .top2{
+	width: 448px;
+	height: 30px;
+}
+.box .fang .you .zi .top2 h1{
+	font-size: 15px;
+	line-height: 24px;
+	color: #000;
+}
+
+
+.box .bot{
+	width: 100%;
+	height: 414px;
+	background-color: #E83426;
+	margin-top: 30px;
+}
+.box .bot .tom{
+	width: 980px;
+	height: 414px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.box .bot .tom .wo{
+	width: 210px;
+	height: 175px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.box .bot .tom .wo .men{
+	width: 210px;
+	height: 63px;
+	border-bottom: 1px solid #fff;
+}
+.box .bot .tom .wo .men img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.box .bot .tom .wo .men h1{
+	font-size: 18px;
+	line-height: 60px;
+	color: #fff;
+}
+.box .bot .tom .wo a{
+	width: 210px;
+	height: 22px;
+}
+.box .bot .tom .wo a h2{
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.box .bot .tom .wo1{
+	width: 340px;
+	height: 354px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.box .bot .tom .wo1 .men{
+	width: 340px;
+	height: 61px;
+	border-bottom: 1px solid #fff;
+}
+.box .bot .tom .wo1 .men img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.box .bot .tom .wo1 .men h1{
+	font-size: 18px;
+	line-height: 60px;
+	color: #fff;
+}
+.box .bot .tom .wo1 a{
+	width: 340px;
+	height: 24px;
+}
+.box .bot .tom .wo1 a h2{
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	font-weight: normal;
+}
+
+
+.box .bot .tom .wo2{
+	width: 300px;
+	height: 243px;
+	margin-top: 30px;
+}
+.box .bot .tom .wo2 .men{
+	width: 300px;
+	height: 61px;
+	border-bottom: 1px solid #fff;
+}
+.box .bot .tom .wo2 .men img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.box .bot .tom .wo2 .men h1{
+	font-size: 18px;
+	line-height: 60px;
+	color: #fff;
+}
+.box .bot .tom .wo2 h2{
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.box .di{
+	width: 980px;
+	height: 95px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.box .di h1{
+	width: 980px;
+	height: 17.6px;
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	text-align: center;
+}
